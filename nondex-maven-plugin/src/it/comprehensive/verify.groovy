@@ -4,6 +4,8 @@ sleep(3000)
 assert nondexDirectory.isDirectory();
 
 // Every run adds 5 directories. Latest and jar are static
+print "AWSHI2 PRINTING"
+print nondexDirectory.list()
 assert (nondexDirectory.list().length - 2) % 5 == 0;
 
 def nondexFolder = new File(".nondex")
